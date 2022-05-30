@@ -1,0 +1,141 @@
+.{
+    scroll-behavior: smooth;
+    font-family: gabriola;
+    box-sizing: border-box;
+}
+html{
+    box-shadow: inset 10px 10px 120px 10px  rgb(21, 200, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+header{
+    position: fixed;
+    top: -10%;
+    left: 0%;
+    width: 100%;
+    padding: 10px 0 0 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    transition: 1s;
+    background-color: rgb(209, 226, 236);
+    height: 20%;
+}
+.logo{
+    color: rgb(20, 188, 230);
+    font-weight: bold;
+    font-size: 250%;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    top: 20%;
+}
+.logo span{
+    color: rgb(5, 26, 19);
+}
+.navbar{
+    display: flex;
+    position: relative;
+    top: 31%;
+}
+.navbar li{
+    list-style:none;
+}
+.navbar a {
+    text-decoration: none;
+    font-weight: bold;
+    margin-left:30px;
+    color: rgb(1, 38, 97);
+}
+header li a:hover{
+    background-color: black;
+    color: white;
+  border-bottom: 5px solid pink;
+}
+section {
+    padding: 20px 20px 10px 20px;
+
+}
+.gene {
+    width: 100%;
+    display:inline-flex;
+    position: relative;
+    justify-content: space-between;
+    background-colorb: rgb(245, 235, 235);
+    
+    
+    margin: 20% 0% 0% 0%;
+}
+.active a {
+    color: aliceblue;
+
+}
+
+.active{
+    padding: 0 16px 0 0;
+    background-color: black;
+    color: white;
+  border-bottom: 5px solid pink;
+}
+
+.gene {
+    position: relative;
+    width: 100%;
+    
+}
+.cont{
+    width: 50%;
+    float: ;
+}
+.cont2{
+    float: ;
+}
+
+.gene .cont h2 {
+   margin-bottom: 20px;
+}
+.titre { color: brown;
+font-size: large;
+}
+.test{
+    position: relative;
+    width: 80%;
+}
+
+fieldset{
+    width: 30%;
+    border-radius: 10%;
+    border: 1px solid blue;
+
+}
+legend{
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+    font-family: gabriola;
+}
+.form {
+    position: relative;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+}
+p{
+    color: rgb(37, 141, 233);
+}
+form input{
+    margin: 10px 10px 10px 10px;
+    color: palevioletred;
+}
+.lo{
+    width: 30%;
+}
+#los{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <scrxipt type="text/javaxscript" src="js.js" ></scrixpt>
+    
+  <link rel="stylesheet" href="style.css"> 
+
+    <title>Dschang</title>
+
+</head>
+<body onunload="cool()">
+
+    <header>
+        <a href="#" class="logo"> <span>DSC</span>HANG</a>
+        <ul class="navbar">
+            <li class="active"><a href="#">Accceuil</a></li>
+            <li><a href="#">Université</a></li>
+            <li><a href="#">Résidences</a></li>
+            <li><a href="#">Lieux</a></li>
+            <li><a href="#">Carte</a></li>
+        </ul>
+    </header>
+
+    <section class="ban" id="ban">
+        <div class="gene">
+         <div class="cont"> 
+            <h2 class="titre">Ville de Dschang</h2>
+           <!--  <button onclick="afficher()" id="aff">afficher</button> -->
+            <p id="aff">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, earum voluptatum ad aliquid 
+                facilis quam alias ipsum nihil possimus! Ut incidunt ipsum omnis vero 
+                nulla, dolor perspiciatis fuga maiores! Iusto?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, earum voluptatum ad aliquid 
+                facilis quam alias ipsum nihil possimus! Ut incidunt ipsum omnis vero 
+                nulla, dolor perspiciatis fuga maiores! Iusto?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, earum voluptatum ad aliquid 
+                facilis quam alias ipsum nihil possimus! Ut incidunt ipsum omnis vero 
+                nulla, dolor perspiciatis fuga maiores! Iusto?
+            </p> </div> 
+             <script type="text/javascript">
+                 var x = document.getElementById('aff');
+                 x.innerHTML;
+                 console.log(x);
+             </script>
+            <div class="cont2">
+                <div class="pic">
+                    <img src="photo/y.jpg" width="400px" height="200px" alt="la ville de Dschang">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section> 
+    <br> <br> <br><br>
+     <section>
+         <div class="test"> 
+            <h3>Petites galleries</h3>
+             <p>orem ipsum dolor sit amet consectetur adipisicing elit. Saepe, earum voluptatum ad aliquid 
+                facilis quam alias ipsum nihil possimus! Ut incidunt ipsum omnis vero 
+                nulla, dolor perspiciatis fuga maiores! Iusto?
+                Lorem ipsum dolor sit amet consectetur a</p>       
+         </div>
+     </section>
+     <section class="form">
+
+         <form id="inscription>"
+             <fieldset>
+             <legend>inscription</legend>
+             <label for="name">nom</label> <input type="text" placeholder="your name" id="nom"> <br>
+               <span id="errornom"></span>
+             <label for="surname">prenom</label> <input type="text" placeholder="your surname" id="surname"><br>
+             <span id="erreurprenom"></span>
+             <label for="email">email</label> <input type="email" placeholder="x@dash.com for example" id="mail"><br>
+             <span id="erreurmail"></span>
+             <label for="pass">motdepasse</label><input type="password"><br>
+             <input type="submit" value="envoyer" > &nbsp; &nbsp;  &nbsp;  <input type="reset" value="annuler"><br>
+        </fieldset>
+    </form>
+    <script>
+        let f = document.getElementById('inscription');
+        f.addEventListenner('submit' , function(e){
+            let nom = document.getElementById('nom');
+            if(nom.value.trim()=="") {
+                let error= document.getElementById('errornom');
+                error.innerHTML="désolé le nom ne peut etre vide";
+                error.style.color="red";
+                e.preventDefault();
+            }
+        });
+
+    </script>
+
+
+
+
+
+     </section>
+     <button ondblclick="lol()" id="click">clique moi</button>
+ <section>
+    <h1>petit tableau</h1>
+    <table border="1px" width="50%" align="center" cellpadding="2" cellspacing="2" > 
+        <caption>Mon fucking tableau</caption>
+      <tr>
+        <th colspan="6" > <center>Gestions de la paye des etudiants en Master</center> </th>
+    </tr>
+    <tr> <td colspan="2">identifications</td>
+    <td colspan="3" rowspan="1">informations salariales</td>
+</tr>
+<tr>
+    <td>noms et prenoms</td>
+    <td>matricules</td>
+    <td>heures de travail</td>
+    <td>salaires consequent</td>
+   <td> salaires a percevoir</td>
+   <td>observations</td>
+</tr>
+ <tr> <td>.</td> <td>.</td><td>.</td>
+    <td>.</td> <td>.</td><td>.</td></tr>
+    <tr>
+        <td></td><td></td>
+        <td colspan="4">ligne egele coloene plus cellulles  lol</td>
+    </tr>
+    <tr>
+        <td>.</td> <td>.</td><td>.</td>
+        <td>.</td> <td>.</td><td>.</td>
+    </tr>
+    <tr>
+        <td rowspan="2">.</td>
+        <td>.</td> <td>.</td><td>.</td>
+        <td>.</td> 
+        <tr><td>.</td> <td>.</td><td>.</td>
+        <td>.</td></tr>
+    </tr>
+
+    </table>
+     
+ </section>
+
+ <section id="los">
+     <div class="lo">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa minima, a 
+             dolor perspiciatis cum maxime. Pariatur deleniti recusandae, f
+             acilis amet dolor, iusto enim explicabo autem accusamus illo omnis officiis animi!
+             rem ipsum dolor sit amet consectetur adipisicing elit. Culpa minima, a 
+             dolor perspiciatis cum maxime. Pariatur deleniti recusandae, f
+             acilis amet dolor, iusto enim explicabo autem accusamus illo omnis officiis
+              animrem ipsum dolor sit amet consectetur adipisicing elit. Culpa minima, a 
+             dolor perspiciatis cum maxime. Pariatur deleniti recusandae, f
+             acilis amet dolor, iusto enim explicabo autem accusamus illo omnis officiis anim</p>
+     </div>
+     
+     <div class="lo">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa minima, a 
+            dolor perspiciatis cum maxime. Pariatur deleniti recusandae, f
+            acilis amet dolor, iusto enim explicabo autem accusamus illo omnis officiis animi!
+            rem ipsum dolor sit amet consectetur adipisicing elit. Culpa minima, a 
+            dolor perspiciatis cum maxime. Pariatur deleniti recusandae, f
+            acilis amet dolor, iusto enim explicabo autem accusamus illo omnis officiis
+             animrem ipsum dolor sit amet consectetur adipisicing elit. Culpa minima, a 
+            dolor perspiciatis cum maxime. Pariatur deleniti recusandae, f
+            acilis amet dolor, iusto enim explicabo autem accusamus illo omnis officiis anim</p>
+    </div>
+    
+    <div class="lo">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa minima, a 
+            dolor perspiciatis cum maxime. Pariatur deleniti recusandae, f
+            acilis amet dolor, iusto enim explicabo autem accusamus illo omnis officiis animi!
+            rem ipsum dolor sit amet consectetur adipisicing elit. Culpa minima, a 
+            dolor perspiciatis cum maxime. Pariatur deleniti recusandae, f
+            acilis amet dolor, iusto enim explicabo autem accusamus illo omnis officiis
+             animrem ipsum dolor sit amet consectetur adipisicing elit. Culpa minima, a 
+            dolor perspiciatis cum maxime. Pariatur deleniti recusandae, f
+            acilis amet dolor, iusto enim explicabo autem accusamus illo omnis officiis anim</p>
+    </div>
+ </section>
+    
+
+</body>
+</html>
